@@ -1,0 +1,308 @@
+
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.stack {
+    margin: 50px auto;
+    width: 90%;
+}
+
+/* STACK 1 GRID */
+.stack-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0px;
+    align-items: right;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-picture-section {
+    grid-column: span 1;
+    text-align: left;
+    margin-right: 40px;
+}
+
+.about-text-section {
+    grid-column: span 5;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.about-text-section h2{
+   font-size: 20px;
+   word-spacing: 30% ;
+   margin-bottom: 10px;
+}
+
+.about-text-section p {
+    font-size: 18px;
+    margin-bottom: 7px;
+    
+}
+
+.about-profile-image {
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid #3D405B;
+}
+
+/* ====== STACK 2 ========= */
+
+.stack-2 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 12px;
+    
+}
+.stackh2 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.skill-group{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0px;
+    text-align: left;
+}
+
+.skill-group h3{
+    grid-column: span 2;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.skill-group p{
+    grid-column: span 6;
+    text-align: left;
+    margin-top: 3px;
+}
+
+
+/* ====== Stack 3 ========= */
+.stack-3 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 12px;    
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.project-card {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 5px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    margin-bottom: 5px;
+}
+
+.project-meta {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.project-card ul {
+    padding-left: 40px;
+    margin-bottom: 7px;
+}
+
+.project-card li {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.project-links  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    gap: 10px;
+}
+
+.project-links a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3D405B;
+}
+
+/* Stack 4 */
+.stack-4 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 12px;    
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-card {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 5px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+
+
+.education-card p{
+    margin-top: 7px;
+    padding-left: 40px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.graduate-year {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #444;
+    margin-left: 0px;
+}
+
+/* ====== Stack 5 ======== */
+.stack-5 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 12px;    
+}
+
+.certification-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.certification-card {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 5px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.certification-card ul {
+    padding-left: 40px;
+}
+
+.certification-card li {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* ======== Stack 6 =========== */
+.stack-6 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 12px;    
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.experience-card {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 5px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.experience-card h3 {
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.experience-date {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.experience-card ul {
+    padding-left: 40px;
+}
+
+.experience-card li {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+
+/* ========= stack 7 ========== */
+.stack-7 {
+    background-color: hsl(37, 79%, 85%);
+    box-shadow: 0 4px 12px rgb(0,0,0,0.15);
+    padding: 20px 10px;
+    margin-bottom: 70px;
+    margin-top: 0px;
+    border-radius: 12px;    
+}
+
+.additional-container {
+    margin: 10px 40px;
+}
+
+.additional-list {
+    padding-left: 40px;
+}
+
+.additional-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}

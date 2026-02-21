@@ -4,7 +4,7 @@
 }
 
 html {
-    width: 95.5%; /*To prevent horizontal scroll bar*/
+    width: 100%; /*To prevent horizontal scroll bar*/
 
 }
 
@@ -13,7 +13,7 @@ html {
 body{
     background-color: #F4F1DE;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 95.5%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ body{
 
 .brand-text{
     background-color: #81B29A;
-    color: #000;
+    color:#F4F1DE;
 
     padding: 6px 12px; /*top-bottom | left-right*/
     border-radius: 10px;
@@ -68,7 +68,7 @@ body{
 .header-right a{
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color:#3D405B;
 
     font-size: 17px;
     font-weight: bold;
@@ -90,9 +90,97 @@ body{
 
 
 /* Main Content */
+main{
+    width: 100%;
+}
 .main-content{
+    
     flex: 1;
-    padding: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: top;
+
+   margin-top: 100px;
+   margin-bottom: 40px;
+   margin-left: 60px;
+   margin-right: 0px;
+   
+   gap: 50px;
+}
+.container-left{
+    width: 60%;
+}
+
+.container-left h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #3D405B;
+}
+.container-left p {
+    font-size: 18px;
+    line-height: 130%;
+}
+.container-left .heading{
+    font-size: 20px;
+    color:#3D405B;
+    font-weight: 700;
+    text-align: left;
+}
+.container-right{
+    width: 40%;
+    text-align: left;
+    
+    
+}
+
+.profile-image{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: #3D405B solid 1px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.profile-name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3D405B;
+    margin-left: 150px;
+    
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+    
+
+.button-container a {
+    text-decoration: none;
+    color:#F4F1DE;
+    background-color: #3D405B;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-container a:hover {
+    transform: scale(1.1);
 }
 
 /* Footer */
@@ -111,18 +199,48 @@ body{
 
     padding-left: 30px;
     padding-right: 30px;
+    
 
     z-index: 999; /*stays above content*/
 }
+.footer-social{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
 
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #3D405B;
+    background-color:#F2CC8F;
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: transform 0.5s ease, text-decoration 0.2 ease;
+}
+
+.social-link:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
 .creatormark{
     font-size: 15px;
     color: #3D405B;
 }
 
-footer a{
+.contact-footer a{
     text-decoration: none;
-    color: black;
+    color:#3D405B;
 
     font-size: 20px;
     font-weight: bold;
@@ -136,7 +254,7 @@ footer a{
     
 }
 
-.footer a:hover{
+.contact-footer a:hover{
     background-color: hsl(151, 24%, 50%);
     transform: scale(1.1) translateY(-1px);
 }

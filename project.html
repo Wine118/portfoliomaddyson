@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maddyson's Portfolio</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/project.css">
+  <!-- Tab bar logo (favicon) -->
+  <link rel="icon" href="static/images/profilecircle.png" type="image/png">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <img src="static/images/portfolio.jpg" alt="logo" class="logo">
+            <div class="brand-text">Waing's Portfolio</div>
+        </div>
+        <nav class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="project-content">
+         <!-- Projects Section -->
+
+            <div class="stack stack-project">
+                <h2 class="stackh2">My Projects</h2>
+                <!-- Current Project Display -->
+                 <div class="project-display">
+                    <!-- Project Text -->
+                     <div class="project-text">
+                        <h3>Restaurant Menu & Ordering Web Application</h3>
+                        <p>
+                            A full-stack restaurant menu and ordering system built using HTML, CSS, JavaScript, Django, and MySQL. 
+                            The application supports dynamic menu management, customer order processing, and persistent database storage.
+                        </p>
+                        <ul>
+                            <li>Developed a fully responsive frontend optimized for mobile and desktop devices.</li>
+                            <li>Implemented backend logic using Django with structured MVT architecture and Django ORM.</li>
+                            <li>Designed and maintained consistent relational data models using MySQL.</li>
+                            <li>Built dynamic menu rendering with category and dish management.</li>
+                            <li>Implemented order validation and secure data handling for reliable transaction processing.</li>
+                        </ul>
+                     </div>
+
+                     
+                 </div>
+
+              
+                 <!-- Powerpoint / Image Gallery -->
+                      <div class="project-gallery" data-project="1">
+                        <button class="prev">&#10094;</button>
+                        <img class="project-gallery-img" src="" alt="Project Image">
+                        <button class="next">&#10095;</button>
+                      </div>
+
+                         <!-- Youtube  -->
+                      <div class="project-video" data-project="1">
+                        <iframe width="560" height="315"
+                         src="https://www.youtube.com/embed/MkW-eyfE8GQ?si=j9mv_lT2fkWOOvVw"
+                          title="YouTube video player" frameborder="0" class="project-gallery-video"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        
+                        
+                      </div>
+
+                      <div class="github-link">
+                         <a href="https://github.com/Wine118/Django_restaurant_menu.git" target="_blank">To GitHub</a>
+                      </div>
+                      <!-- Navigation Bar -->
+                       <div class="project-navigation">
+                            <button class="nav-btn">&lt;</button>
+                            <button class="nav-btn active">1</button>
+                            <button class="nav-btn">2</button>
+                            <button class="nav-btn">3</button>
+                            <button class="nav-btn">&gt;</button>
+                       </div>
+            </div>    
+
+            
+
+            
+
+            
+        
+
+           
+    </main>
+
+    <footer class="footer">
+        <span class="creatormark">&copy; 2026 Created by Maddyson</span>
+
+        <!-- Center Social Links -->
+        <div class="footer-social">
+            <a href="https://github.com/Wine118" target="_blank" class="social-link">
+                <img src="static/images/github.png" alt="GitHub" class="social-icon">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/waing-wai-wai-phyo-a974a8273" target="_blank" class="social-link">
+                <img src="static/images/linkedin.png" alt="LinkedIn" class="social-icon">
+                <span>LinkedIn</span>
+            </a>
+        </div>
+        <div class="contact-footer">
+            <a href="#">Contact Me</a>
+            <a href="#" style="display: none;">Save</a>
+        </div>
+        
+    </footer>
+
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-img" src="" alt="Fullscreen Slide">
+            <button class="lightbox-prev">&#10094;</button>
+            <button class="lightbox-next">&#10095;</button>
+         </div>
+  
+  <!-- Link to external JavaScript -->
+  <script src="static/js/project.js"></script>
+</body>
+</html>

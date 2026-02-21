@@ -6,6 +6,9 @@
   <title>Maddyson's Portfolio</title>
   <!-- Link to external CSS -->
   <link rel="stylesheet" href="static/css/index.css">
+  <!-- Tab bar logo (favicon) -->
+  <link rel="icon" href="static/images/profilecircle.png" type="image/png">
+
 </head>
 <body>
     <header class="header">
@@ -14,9 +17,9 @@
             <div class="brand-text">Waing's Portfolio</div>
         </div>
         <nav class="header-right">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
             <a href="#">Blogs</a>
             <a href="#">Contact</a>
         </nav>
@@ -24,11 +27,51 @@
 
     <main class="main-content">
         <!-- Content goes here -->
+         <div class="profile-container">
+            <div class="container-left">
+                <h2 class="editable">Junior Full Stack Developer & <br>DevOps Enthusiast</h2>
+                <h3 class="heading editable" >An enthusiastic web developer passionate about building end-to-end applications.</h3><br>
+                
+                <p class="editable">                 
+
+                    I’ve developed a full-featured restaurant menu web application — from designing intuitive webpages to building a robust backend with Django and MySQL. Beyond the web, I’ve created desktop applications in Java and C#, and I’m fluent in HTML, CSS, JavaScript, and Python.
+
+                    Currently, I’m pursuing DevOps Engineering to bring these applications into real-world production environments with scalable, reliable deployments.
+                </p>
+            </div>
+            <div class="container-right">
+                <img src="static/images/profilejpg.jpg" alt="Profile" class="editable profile-image" id="profile-image" width="250px">
+                <div class="profile-name" >
+                    Waing Wai Wai Phyo (Maddyson)<br>
+                    B.E. (Electronics) 
+                </div>
+            </div>
+         </div>
+         <div class="button-container">
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+         </div>
     </main>
 
     <footer class="footer">
         <span class="creatormark">&copy; 2026 Created by Maddyson</span>
-        <a href="#">Contact Me</a>
+
+        <!-- Center Social Links -->
+        <div class="footer-social">
+            <a href="https://github.com/Wine118" target="_blank" class="social-link">
+                <img src="static/images/github.png" alt="GitHub" class="social-icon">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/waing-wai-wai-phyo-a974a8273" target="_blank" class="social-link">
+                <img src="static/images/linkedin.png" alt="LinkedIn" class="social-icon">
+                <span>LinkedIn</span>
+            </a>
+        </div>
+        <div class="contact-footer">
+            <a href="#">Contact Me</a>
+            <a href="#" style="display: none;">Save</a>
+        </div>
         
     </footer>
   
